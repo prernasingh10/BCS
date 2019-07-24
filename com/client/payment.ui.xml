@@ -1,0 +1,87 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+    DIV1
+    {
+    
+	margin-left:3%;
+	
+	
+
+	}
+	DIV2
+	{
+	margin-left:3%;
+
+	}
+	DIV3
+	{
+	
+	margin-left:3%;
+
+	}
+	DIV4
+	{
+	
+	margin-left:3%;
+	
+
+	}
+	h3
+	{
+	margin-right:43%;
+	
+
+	}
+	
+
+	
+</ui:style>
+<m:MaterialContainer ui:field="c">
+	<g:HTMLPanel>
+	<center>
+	<m:MaterialRow>
+	<m:MaterialColumn>
+	<m:MaterialButton ui:field="back" text="Back"  />
+	</m:MaterialColumn>
+	<m:MaterialColumn paddingLeft="350">
+	<m:MaterialImage url="usermoney.png"  width="50%"/>
+	</m:MaterialColumn>
+	</m:MaterialRow>
+	<h2>Make payment</h2>
+	 <m:MaterialTextBox label="Card No" width="35%"/> 
+     <m:MaterialTextBox label="CVV" width="35%"  /> 
+     <m:MaterialTextBox label="Exp-Date" width="35%" />
+     <m:MaterialButton ui:field="sub" text="Submit" waves="DEFAULT"  width="15%"/> 
+      <br/><br/>
+      <h3>Payment Method:</h3>
+      <br/>
+    
+	<DIV1>
+	<m:MaterialButton text="Net Banking" waves="DEFAULT" width="15%"/>
+	</DIV1>
+	
+	
+	<DIV2>
+	<m:MaterialButton text="Debit Card" waves="DEFAULT"  width="15%"/>
+	</DIV2>
+	
+	<DIV3>
+	<m:MaterialButton text="Credit Card" waves="DEFAULT"  width="15%"/>
+	</DIV3>
+	
+	<DIV4>
+	<m:MaterialButton text="Other" waves="DEFAULT"  width="15%"/>
+	</DIV4>
+	 <br/><br/>
+	 
+   </center>
+  
+	
+		
+	</g:HTMLPanel>
+	</m:MaterialContainer>
+</ui:UiBinder> 
